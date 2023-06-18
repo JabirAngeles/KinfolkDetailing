@@ -11,17 +11,16 @@ import "./Value.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import data from "../../utils/accordion";
-import {useState} from "react";
+import { useState } from "react";
 
 const Value = () => {
   return (
     <section className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
-        
         {/*Left side*/}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="./car7.jpeg" alt="" />
           </div>
         </div>
 
@@ -41,14 +40,16 @@ const Value = () => {
             preExpanded={[0]}
           >
             {data.map((item, i) => {
-              const [className, setClassName]= useState(null);
+              const [className, setClassName] = useState(null);
 
               return (
-                <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
-                  
+                <AccordionItem
+                  className={`accordionItem ${className}`}
+                  key={i}
+                  uuid={i}
+                >
                   <AccordionItemHeading>
                     <AccordionItemButton className="flexCenter accordionButton">
-
                       <AccordionItemState>
                         {({ expanded }) =>
                           expanded
@@ -56,7 +57,7 @@ const Value = () => {
                             : setClassName("collapse")
                         }
                       </AccordionItemState>
-                      
+
                       <div className="flexCenter icon"> {item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
@@ -68,7 +69,6 @@ const Value = () => {
                   <AccordionItemPanel>
                     <p className="secondaryText">{item.detail}</p>
                   </AccordionItemPanel>
-
                 </AccordionItem>
               );
             })}

@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -11,15 +12,27 @@ const Hero = () => {
         <div className="flexColStart hero-left">
           <div className="hero-title">
             <div className="orange-circle" />
-            <h1>
-              Discover <br />
-              Most Suitable <br />
-              Property
-            </h1>
+            <motion.h1
+              initial={{ y: "2rem", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{
+                duration: 4,
+                type: "spring",
+              }}
+            >
+              Kinfolk <br />
+              Detailing <br />
+              Auto cleaning
+            </motion.h1>
           </div>
           <div className="flexColStart hero-des">
-            <span className="secondaryText"> Find a variety of properties that suit you very easily</span>
-            <span className="secondaryText"> Forget all dificulties in finding a residencie</span>
+            <span className="secondaryText">
+              {" "}
+              Utah based mobile car detailing
+            </span>
+            <span className="secondaryText">
+              Drive in Style, Shine with Pride!
+            </span>
           </div>
           <div className="flexCenter search-bar">
             <HiLocationMarker color="var(--blue)" size={25} />
@@ -57,7 +70,7 @@ const Hero = () => {
         {/*Right side*/}
         <div className="flexCenter hero-right">
           <div className="image-container">
-            <img src="./hero-image.png" alt="" />
+            <img src="./hero.jpeg" alt="" />
           </div>
         </div>
       </div>
