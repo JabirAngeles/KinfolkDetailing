@@ -5,6 +5,7 @@ import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 import Contact from "./components/ContactUs/Contact";
 import Footer from "./components/Footer/Footer";
+import Important from "./components/Important/Important";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </div>
       <Residencies />
       <Value />
+      {/* <Important /> */}
       <Contact />
       <Footer />
     </div>

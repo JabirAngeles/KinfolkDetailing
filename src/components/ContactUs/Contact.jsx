@@ -3,8 +3,63 @@ import "./Contact.css";
 import { MdMessage } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import emailjs from "@emailjs/browser";
+import { useState, useRef } from "react";
 
 const Contact = () => {
+
+  const formRef = useRef();
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const { loading, setLoading } = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_om094e8",
+        "template_6vulb9s",
+        {
+          from_name: form.name,
+          to_name: "Jabir",
+          from_email: form.email,
+          to_email: "jabirangeles00@gmail.com",
+          message: form.message,
+          subject: form.phone,
+        },
+        "EdHdjNuK6nf-lSbUy"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank You! I will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong!");
+        }
+      );
+  };
+
   return (
     <div className="container">
       <div className="form">
@@ -34,29 +89,59 @@ const Contact = () => {
         </div>
 
         <div className="contact-form">
-          <form action="index.html">
+          <form action="index.html" ref={formRef} onSubmit={handleSubmit}>
             <h3 class="title"> Contact Us</h3>
+
             <div className="input-container focus">
-              <input type="text" name="name" class="input"></input>
+              <input
+                type="text"
+                name="name"
+                value={form.name}
+                onChange={handleChange}
+                class="input"
+              ></input>
               <label for="">Name</label>
               <span>Name</span>
             </div>
+
             <div className="input-container focus">
-              <input type="email" name="email" class="input"></input>
+              <input
+                type="email"
+                name="email"
+                value={form.email}
+                onChange={handleChange}
+                class="input"
+              ></input>
               <label for="">Email</label>
               <span>Email</span>
             </div>
+
             <div className="input-container focus">
-              <input type="tel" name="phone" class="input"></input>
+              <input
+                type="tel"
+                name="phone"
+                value={form.phone}
+                onChange={handleChange}
+                class="input"
+              ></input>
               <label for="">Phone</label>
               <span>Phone</span>
             </div>
+
             <div className="input-container focus">
-              <textarea name="message" class="input"></textarea>
+              <textarea
+                name="message"
+                value={form.Message}
+                onChange={handleChange}
+                class="input"
+              ></textarea>
               <label for="">Message</label>
               <span>Message</span>
             </div>
-            <input type="submit" value="send" class="btn" />
+
+            <button type="submit" class="btn" onClick="submit">
+              {loading ? "Sending..." : "Send"}
+            </button>
           </form>
         </div>
       </div>
