@@ -1,38 +1,74 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
+    "name": "Full cleaning Sedan",
+    "price": "180",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "image": "./sedanpng.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
-  },
-  {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
-  },
-  {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
+    "name": "Interior Sedan",
+    "price": "120",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "image": "./interior.jpeg"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
+    "name": "Exterior Sedan",
+    "price": "90",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./sedan.jpeg"
+  },
+  {
+    "name": "Full cleaning small SUV",
+    "price": "200",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./suvpng.png"
+  },
+  {
+    "name": "Interior small SUV",
+    "price": "135",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "image": "./interior.jpeg"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
+    "name": "Exterior small SUV",
+    "price": "100",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
+    "image": "./smallsuv.webp"
+  },
+  {
+    "name": "Full cleaning SUV",
+    "price": "235",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./suv2.png"
+  },
+  {
+    "name": "Interior SUV",
+    "price": "170",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "image": "./interior.jpeg"
+  },
+  {
+    "name": "Exterior SUV",
+    "price": "120",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
+    "image": "./largesuv.jpeg"
+  },
+  {
+    "name": "Full cleaning Truck",
+    "price": "280",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./pickup.png"
+  },
+  {
+    "name": "Interior Truck",
+    "price": "190",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./interior.jpeg"
+  },
+  {
+    "name": "Exterior Truck",
+    "price": "135",
+    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
+    "image": "./truck.jpeg"
   }
 ]

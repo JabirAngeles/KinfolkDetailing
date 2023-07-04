@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Militar Discount",
+    "price": "10%",
+    "detail": "We are proud to offer a military discount as a token of our appreciation for the service and sacrifice of our military personnel. This discount is available to active duty members, veterans, and their immediate family members.",
+    "image": "./militar.png"
+  },
+  {
+    "name": "Claybar and wax",
+    "price": "200",
+    "detail": "Our buff and wax treatment with clay bar is a comprehensive service designed to enhance the appearance and protection of your vehicle's paintwork. This meticulous process involves multiple steps to rejuvenate and restore the shine of your vehicle's exterior.",
+    "image": "./claybar.jpeg"
+  },
+  {
+    "name": "Engine detail",
+    "price": "50",
+    "detail": "An immaculate and well-cared-for engine compartment can significantly impact the overall presentation of your vehicle.",
+    "image": "./engine.jpeg"
+  },
+  {
+    "name": "Paint Correction",
+    "price": "300",
+    "detail": "Paint correction is a meticulous process that aims to restore and improve the appearance of a vehicle's paintwork by removing imperfections such as swirl marks, scratches, oxidation, and other surface defects. ",
+    "image": "./polish.jpeg"
+  },
+  {
+    "name": "Headlights restoration",
+    "price": "50",
+    "detail": "Restoring the clarity and brilliance of your headlight lenses, bringing them back to their original condition.",
+    "image": "./head.png"
+  },
+  {
+    "name": "Ozone desinfectation",
+    "price": "10  0",
+    "detail": "Highly effective and advanced method of eliminating odors, bacteria, viruses, and other harmful microorganisms from the interior of a vehicle. It involves the use of ozone, a powerful oxidizing agent, to sanitize and deodorize the car's cabin.",
+    "image": "./ozone.jpeg"
+  },
+  {
+    "name": "Leather condition",
+    "price": "50",
+    "detail": "We'll effectively remove accumulated dirt, grime, and stains, restoring a fresh and new appearance. Additionally, our conditioning treatment enhances the longevity of your leather seats, ensuring they stay in great shape for years to come.",
+    "image": "./leather.png"
+  },
+  {
+    "name": "Hair removal",
+    "price": "50",
+    "detail": "Specialized service designed to effectively eliminate pet hair from various surfaces such as seats, carpets, and other areas in your vehicle",
+    "image": "./dog.webp"
+  }
+]

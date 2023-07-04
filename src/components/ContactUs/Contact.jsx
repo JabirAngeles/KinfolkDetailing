@@ -7,7 +7,6 @@ import emailjs from "@emailjs/browser";
 import { useState, useRef } from "react";
 
 const Contact = () => {
-
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -15,6 +14,7 @@ const Contact = () => {
     phone: "",
     message: "",
   });
+
   const { loading, setLoading } = useState(false);
 
   const handleChange = (e) => {
@@ -28,14 +28,14 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send(
+      .sendForm(
         "service_om094e8",
         "template_6vulb9s",
         {
           from_name: form.name,
           to_name: "Jabir",
           from_email: form.email,
-          to_email: "jabirangeles00@gmail.com",
+          to_email: "info@knfkdetailing.com",
           message: form.message,
           subject: form.phone,
         },
@@ -61,7 +61,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container">
+    <div id="ContactUs" className="container">
       <div className="form">
         <div className="contact-info">
           <h3 className="title">Let's get in touch</h3>
@@ -70,26 +70,36 @@ const Contact = () => {
             to providing exceptional car detailing services to ensure your
             vehicle looks its best. If you have any questions, inquiries, or
             would like to schedule an appointment, please don't hesitate to
-            reach out to us.{" "}
+            reach out to us.
           </p>
           <div className="info">
             <div className="information">
               <FaPhoneAlt />
-              <p>+1 (385)528-6342</p>
+              <button>
+                <a href="tel:3855286342">+1 (385)528-6342</a>
+              </button>
             </div>
             <div className="information">
               <MdMessage />
-              <p>info@kinfolkdetailing.com</p>
+              <button>
+                <a href="mailto:info@knfkdetailing.com">
+                  info@kinfolkdetailing.com
+                </a>
+              </button>
             </div>
             <div className="information">
               <AiFillInstagram />
-              <p>@kinfolkdetailing</p>
+              <button>
+                <a href="https://www.instagram.com/knfkdetailing/">
+                  @knfkdetailing
+                </a>
+              </button>
             </div>
           </div>
         </div>
 
         <div className="contact-form">
-          <form action="index.html" ref={formRef} onSubmit={handleSubmit}>
+          <form action="submit" ref={formRef} onSubmit={handleSubmit}>
             <h3 class="title"> Contact Us</h3>
 
             <div className="input-container focus">
@@ -139,7 +149,7 @@ const Contact = () => {
               <span>Message</span>
             </div>
 
-            <button type="submit" class="btn" onClick="submit">
+            <button type="submit" class="btn" onClick={handleSubmit}>
               {loading ? "Sending..." : "Send"}
             </button>
           </form>

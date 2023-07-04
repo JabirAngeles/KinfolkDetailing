@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Photoshoot",
+    "price": "Free",
+    "detail": "Designed to showcase the beauty and unique features of your vehicle.",
+    "image": "./camera.webp"
+  },
+  {
+    "name": "Driveway cleaning",
+    "price": "200+",
+    "detail": "High-pressure water to clean and remove dirt, grime, mold, mildew, and other contaminants from driveways.",
+    "image": "./driveway.webp"
+  }
+]

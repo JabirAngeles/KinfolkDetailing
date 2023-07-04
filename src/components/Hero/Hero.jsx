@@ -1,22 +1,21 @@
 import React from "react";
 import "./Hero.css";
-import { HiLocationMarker } from "react-icons/hi";
+import { SiMinutemailer } from "react-icons/si";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="hero-wrapper">
+    <section id="home" className="hero-wrapper">
       <div className="paddings innerWidth flexCenter hero-container">
         {/*Left Side*/}
         <div className="flexColStart hero-left">
           <div className="hero-title">
-            <div className="orange-circle" />
             <motion.h1
-              initial={{ y: "2rem", opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+              initial={{ y: 0, opacity: 0 }}
+              animate={{ y: "2rem", opacity: 1 }}
               transition={{
-                duration: 4,
+                duration: 3,
                 type: "spring",
               }}
             >
@@ -31,27 +30,29 @@ const Hero = () => {
               Utah based mobile car detailing
             </span>
             <span className="secondaryText">
-              Drive in Style, Shine with Pride!
+              Passionates for restoring and protecting your car
             </span>
           </div>
           <div className="flexCenter search-bar">
-            <HiLocationMarker color="var(--blue)" size={25} />
-            <input type="text" />
-            <button className="button">Search</button>
+            <SiMinutemailer color="var(--blue)" size={25} />
+            <p className="quota">Get your quota now!</p>
+            <button className="button">
+              <a href="mailto:jabirangeles00@gmail.com">Email Us</a>
+            </button>
           </div>
 
           <div className="flexCenter stats">
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={8800} end={9000} duration={3} />
+                <CountUp start={10} end={40} duration={3} />
                 <span>+</span>
               </span>
-              <span className="secondaryText">Premium Products</span>
+              <span className="secondaryText">Covered Miles</span>
             </div>
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp start={1800} end={2000} duration={3} />
+                <CountUp start={20} end={100} duration={3} />
                 <span>+</span>
               </span>
               <span className="secondaryText">Happy Customers</span>
@@ -59,10 +60,10 @@ const Hero = () => {
 
             <div className="flexColCenter stat">
               <span>
-                <CountUp end={28} />
+                <CountUp end={10} duration={3} />
                 <span>+</span>
               </span>
-              <span className="secondaryText">Award Winning</span>
+              <span className="secondaryText">Services</span>
             </div>
           </div>
         </div>

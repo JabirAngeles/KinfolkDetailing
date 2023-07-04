@@ -1,29 +1,40 @@
 import React from "react";
 import "./Footer.css";
+import { AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
+import { SiTiktok } from "react-icons/si";
 
 const Footer = () => {
   return (
     <section className="footer">
-      <ul className="social-icons">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-      </ul>
-
       <ul className="menu">
         <p>© KinfolkDetailing | All rights reserved</p>
 
         <li>
-          <a href="">KinfolkDetails</a>
+          <a href="#home">KinfolkDetailing</a>
         </li>
         <li>
-          <a href="">Services</a>
+          <a href="#Services">Services</a>
         </li>
         <li>
-          <a href="">Availability</a>
+          <a href="#Availability">Availability</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="#ContactUs">Contact</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/knfkdetailing/">
+            <AiOutlineInstagram />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100093984087242">
+            <AiFillFacebook />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@knfkdetailing">
+            <SiTiktok />
+          </a>
         </li>
       </ul>
     </section>

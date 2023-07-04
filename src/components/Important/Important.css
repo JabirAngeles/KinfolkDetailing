@@ -1,2 +1,50 @@
-.container {
+.i-container {
+  position: relative;
+  background: linear-gradient(
+    to right,
+    var(--primary),
+    #422040,
+    var(--primary)
+  );
+  width: 98% auto;
+  min-height: 12rem;
+  justify-content: center;
+  border: 3px solid #393e41;
+  align-items: center;
+  display: grid;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+.redline {
+  position: relative;
+  background: red;
+  height: 0.1rem;
+  width: 8.5rem;
+  top: 95px;
+  justify-self: center;
+}
+
+.warn {
+  color: red;
+}
+.i1-header {
+  flex-direction: column;
+  font-weight: 800;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.i3-header {
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .redline {
+    top: 80px;
+  }
 }
