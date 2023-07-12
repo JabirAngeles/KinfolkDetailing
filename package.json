@@ -1,7 +1,8 @@
 {
-  "name": "realestate",
+  "name": "kinfolk",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://JabirAngeles.github.io/KInfolkDetailing/build",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,6 +28,7 @@
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^5.0.0",
     "vite": "^4.2.0"
   }
 }
