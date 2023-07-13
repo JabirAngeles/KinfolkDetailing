@@ -2,7 +2,7 @@
   "name": "kinfolk",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://JabirAngeles.github.io/KinfolkDetailing",
+  "homepage": "https://JabirAngeles.github.io/KinfolkDetailing/build",
   "type": "module",
   "scripts": {
     "dev": "vite",
