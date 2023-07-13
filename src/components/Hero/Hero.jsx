@@ -35,7 +35,6 @@ const Hero = () => {
           </div>
           <div className="flexCenter search-bar">
             <SiMinutemailer color="var(--blue)" size={25} />
-            <p className="quota">Get your quota now!</p>
             <button className="button">
               <a href="mailto:jabirangeles00@gmail.com">Email Us</a>
             </button>

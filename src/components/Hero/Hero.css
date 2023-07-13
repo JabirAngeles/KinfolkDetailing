@@ -10,12 +10,6 @@
   align-items: flex-end;
 }
 
-.quota {
-  color: black;
-  font-size: 1.15rem;
-  font-weight: 400;
-}
-
 /*Left Side*/
 .hero-left {
   gap: 3rem;
@@ -39,11 +33,6 @@
   padding: 0.5rem 1rem;
   justify-content: space-between;
   width: 100%;
-}
-
-.search-bar > input {
-  border: none;
-  outline: none;
 }
 
 .stats {
@@ -97,15 +86,5 @@
   }
   .stat > :nth-child(2) {
     font-size: 0.8rem;
-  }
-  .quota {
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-}
-
-@media (max-width: 420px) {
-  .quota{
-    font-size: .8rem;
   }
 }
