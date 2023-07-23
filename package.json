@@ -1,14 +1,13 @@
 {
   "name": "kinfolk",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://JabirAngeles.github.io/KinfolkDetailing",
+  "version": "0.1.0",
+  "homepage": "http://JabirAngeles.github.io/KinfolkDetailing",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -31,6 +30,7 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "gh-pages": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "vite": "^4.2.0"
   }
 }
