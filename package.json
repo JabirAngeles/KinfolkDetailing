@@ -1,10 +1,11 @@
 {
   "name": "kinfolk",
-  "private": true,
+  "private": false,
   "version": "0.1.0",
-  "homepage": "http://JabirAngeles.github.io/KinfolkDetailing",
+  "homepage": "https://jabirangeles.github.io/kinfolkdetailing",
   "type": "module",
   "scripts": {
+    "dev": "vite",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
