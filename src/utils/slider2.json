@@ -3,7 +3,7 @@
     "name": "Militar Discount",
     "price": "10%",
     "detail": "We are proud to offer a military discount as a token of our appreciation for the service and sacrifice of our military personnel. This discount is available to active duty members, veterans, and their immediate family members.",
-    "image": "./militar.png"
+    "image": "./militar.jpg"
   },
   {
     "name": "Claybar and wax",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Ozone desinfectation",
-    "price": "10  0",
+    "price": "100",
     "detail": "Highly effective and advanced method of eliminating odors, bacteria, viruses, and other harmful microorganisms from the interior of a vehicle. It involves the use of ozone, a powerful oxidizing agent, to sanitize and deodorize the car's cabin.",
     "image": "./ozone.jpeg"
   },
