@@ -15,7 +15,6 @@
   cursor: pointer;
   color: orange;
   transition: all 400ms ease-in;
-  text-decoration: underline;
 }
 
 .social-icons {
@@ -31,7 +30,7 @@
 .menu-icon {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .menu-icon {
     display: block;
   }

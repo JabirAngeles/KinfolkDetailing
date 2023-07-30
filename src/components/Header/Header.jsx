@@ -10,7 +10,7 @@ const Header = () => {
   // setMenuOpened(false);
 
   const getMenuStyles = (menuOpened) => {
-    if (document.documentElement.clientWidth <= 800) {
+    if (document.documentElement.clientWidth <= 850) {
       return { right: !menuOpened && "-100%" };
     }
   };
@@ -48,7 +48,6 @@ const Header = () => {
 
             <a href="#Services">Services</a>
             <a href="#AboutUs">About Us</a>
-            <a href="#Gallery">Gallery</a>
             <a href="#ContactUs">Contact Us</a>
             <button type="button" href="tel:3855286342" className="button">
               <a href="tel:3855286342">Call Us</a>
