@@ -18,7 +18,9 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings h-container">
-        <p className="KNFK">KNFK</p>
+        <a href="https://www.knfkdetailing.com" className="KNFK">
+          KNFK
+        </a>
 
         <OutsideClickHandler
           onOutsideClick={() => {
