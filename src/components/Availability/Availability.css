@@ -1,0 +1,55 @@
+.containerAA {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.Availability,
+.HoursOp,
+.Locations,
+.PayMethods {
+  display: inline-block;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  background: #eff3f5;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Availability {
+  background: #007ea7;
+  color: black;
+  text-align: center;
+}
+
+.reactIcons {
+  font-size: 2rem;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HoursOp .reactIcons {
+  background: #009688;
+}
+
+.Locations .reactIcons {
+  background: #e91e63;
+}
+
+.PayMethods .reactIcons {
+  background: #ffc107;
+}

@@ -18,7 +18,9 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddings h-container">
-        <p className="KNFK">KNFK</p>
+        <a href="https://www.knfkdetailing.com" className="KNFK">
+          KNFK
+        </a>
 
         <OutsideClickHandler
           onOutsideClick={() => {
@@ -33,7 +35,7 @@ const Header = () => {
               <AiOutlineInstagram />
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=100093984087242"
+              href="https://www.facebook.com/profile.php?id=100094081762517&mibextid=LQQJ4d"
               className="social-icons"
             >
               <AiFillFacebook />

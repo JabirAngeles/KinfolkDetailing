@@ -33,7 +33,7 @@ const Contact = () => {
         "template_6vulb9s",
         {
           from_name: form.name,
-          to_name: "Jabir",
+          to_name: "Kinfolk",
           from_email: form.email,
           to_email: "info@knfkdetailing.com",
           message: form.message,
@@ -83,7 +83,7 @@ const Contact = () => {
               <MdMessage />
               <button>
                 <a href="mailto:info@knfkdetailing.com">
-                  info@kinfolkdetailing.com
+                  info@knfkdetailing.com
                 </a>
               </button>
             </div>
