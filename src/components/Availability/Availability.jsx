@@ -1,8 +1,7 @@
 import React from "react";
 import "./Availability.css";
 import { BsFillCalendar3WeekFill } from "react-icons/bs";
-import { GrMapLocation } from "react-icons/gr";
-import { MdOutlinePayment } from "react-icons/md";
+import { MdOutlinePayment, MdLocationOn } from "react-icons/md";
 
 const Availability = () => {
   return (
@@ -11,10 +10,10 @@ const Availability = () => {
         <div className="textContainer">
           <h1>KINFOLK</h1>
         </div>
+
         <div className="HoursOp">
-          <h3>
-            Hours <br />
-            of <br />
+          <h3 className="textTitle">
+            Hours of <br />
             Operation
           </h3>
           <div className="reactIcons">
@@ -30,10 +29,11 @@ const Availability = () => {
             <li>Sunday: 8am - 3pm</li>
           </ul>
         </div>
+
         <div className="Locations">
-          <h3>Locations</h3>
+          <h3 className="textTitle">Locations</h3>
           <div className="reactIcons">
-            <GrMapLocation />
+            <MdLocationOn />
           </div>
           <ul>
             <li>Orem</li>
@@ -47,8 +47,9 @@ const Availability = () => {
             <li>Contact us for other locations</li>
           </ul>
         </div>
+
         <div className="PayMethods">
-          <h3>
+          <h3 className="textTitle">
             Payment <br /> Methods
           </h3>
           <div className="reactIcons">
