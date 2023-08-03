@@ -9,7 +9,7 @@
     "name": "Interior Sedan",
     "price": "120",
     "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./interior.jpeg"
+    "image": "./interior1.jpeg"
   },
   {
     "name": "Exterior Sedan",
@@ -27,7 +27,7 @@
     "name": "Interior small SUV",
     "price": "135",
     "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./interior.jpeg"
+    "image": "./interior3.jpeg"
   },
   {
     "name": "Exterior small SUV",
@@ -45,7 +45,7 @@
     "name": "Interior SUV",
     "price": "170",
     "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./interior.jpeg"
+    "image": "./interior4.jpeg"
   },
   {
     "name": "Exterior SUV",
